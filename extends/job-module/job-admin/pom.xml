@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.hb0730</groupId>
+        <groupId>com.kyle</groupId>
         <artifactId>job-module</artifactId>
         <version>${revision}</version>
     </parent>
@@ -46,32 +46,32 @@
         </dependency>
 
         <dependency>
-            <groupId>com.hb0730</groupId>
+            <groupId>com.kyle</groupId>
             <artifactId>common-cache</artifactId>
             <version>${revision}</version>
         </dependency>
         <dependency>
-            <groupId>com.hb0730</groupId>
+            <groupId>com.kyle</groupId>
             <artifactId>common-rpc</artifactId>
             <version>${revision}</version>
         </dependency>
         <dependency>
-            <groupId>com.hb0730</groupId>
+            <groupId>com.kyle</groupId>
             <artifactId>opentelemetry-configuration</artifactId>
             <version>${revision}</version>
         </dependency>
         <dependency>
-            <groupId>com.hb0730</groupId>
+            <groupId>com.kyle</groupId>
             <artifactId>opentelemetry-rpc</artifactId>
             <version>${revision}</version>
         </dependency>
         <dependency>
-            <groupId>com.hb0730</groupId>
+            <groupId>com.kyle</groupId>
             <artifactId>job-api</artifactId>
             <version>${revision}</version>
         </dependency>
         <dependency>
-            <groupId>com.hb0730</groupId>
+            <groupId>com.kyle</groupId>
             <artifactId>sys-rpc-api</artifactId>
             <version>${revision}</version>
         </dependency>

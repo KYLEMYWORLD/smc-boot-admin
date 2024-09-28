@@ -1092,11 +1092,11 @@ CREATE TABLE `sys_quartz_job`
 BEGIN;
 INSERT INTO `sys_quartz_job` (`id`, `job_name`, `job_class_name`, `parameter`, `cron_expression`, `is_enabled`,
                               `description`, `sys_code`, `created`, `created_by`, `modified`, `modified_by`)
-VALUES ('1785475494498562049', '简单任务', 'com.hb0730.jobs.TestJob1', '', '0 0/2 * * * ?', b'0', '无参', 'DEFAULT',
+VALUES ('1785475494498562049', '简单任务', 'com.kyle.jobs.TestJob1', '', '0 0/2 * * * ?', b'0', '无参', 'DEFAULT',
         '2024-05-01 09:05:05', 'superadmin', '2024-05-01 09:25:14', 'superadmin');
 INSERT INTO `sys_quartz_job` (`id`, `job_name`, `job_class_name`, `parameter`, `cron_expression`, `is_enabled`,
                               `description`, `sys_code`, `created`, `created_by`, `modified`, `modified_by`)
-VALUES ('1785475804470210562', '有参测试', 'com.hb0730.jobs.TestJob1', '{\"key\":\"xxx\",\"value\":\"xxx\"}',
+VALUES ('1785475804470210562', '有参测试', 'com.kyle.jobs.TestJob1', '{\"key\":\"xxx\",\"value\":\"xxx\"}',
         '0 0/2 * * * ?', b'0', '有参测试', 'DEFAULT', '2024-05-01 09:06:19', 'superadmin', NULL, NULL);
 INSERT INTO `sys_quartz_job` (`id`, `job_name`, `job_class_name`, `parameter`, `cron_expression`, `is_enabled`,
                               `description`, `sys_code`, `created`, `created_by`, `modified`, `modified_by`)

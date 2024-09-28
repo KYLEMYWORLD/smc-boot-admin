@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.hb0730</groupId>
+        <groupId>com.kyle</groupId>
         <artifactId>common-data-query</artifactId>
         <version>${revision}</version>
     </parent>
@@ -32,12 +32,12 @@
         </dependency>
 
         <dependency>
-            <groupId>com.hb0730</groupId>
+            <groupId>com.kyle</groupId>
             <artifactId>data-query-core</artifactId>
             <version>${revision}</version>
         </dependency>
         <dependency>
-            <groupId>com.hb0730</groupId>
+            <groupId>com.kyle</groupId>
             <artifactId>common-api</artifactId>
             <version>${revision}</version>
         </dependency>

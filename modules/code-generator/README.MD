@@ -11,13 +11,13 @@
 ### 生成文件
 
 ```java
-import com.hb0730.code.generator.core.AutoGenerator;
-import com.hb0730.code.generator.core.config.ConfigBuilder;
-import com.hb0730.code.generator.core.config.GlobalConfig;
-import com.hb0730.code.generator.core.config.PackageConfig;
-import com.hb0730.code.generator.core.config.StrategyConfig;
-import com.hb0730.code.generator.core.engine.FreemarkerTemplateEngine;
-import com.hb0730.code.generator.core.metadata.TableInfo;
+import com.kyle.code.generator.core.AutoGenerator;
+import com.kyle.code.generator.core.config.ConfigBuilder;
+import com.kyle.code.generator.core.config.GlobalConfig;
+import com.kyle.code.generator.core.config.PackageConfig;
+import com.kyle.code.generator.core.config.StrategyConfig;
+import com.kyle.code.generator.core.engine.FreemarkerTemplateEngine;
+import com.kyle.code.generator.core.metadata.TableInfo;
 
 GlobalConfig.Builder globalConfig = new GlobalConfig.Builder()
         .author("hb0730") // 作者
@@ -69,7 +69,7 @@ AutoGenerator autoGenerator = new AutoGenerator().configBuilder(configBuilder)
 #### 示例
 
 ```java
-import com.hb0730.code.generator.core.config.GlobalConfig;
+import com.kyle.code.generator.core.config.GlobalConfig;
 
 GlobalConfig builder = new GlobalConfig.Builder()
         .author("hb0730") // 作者
@@ -83,7 +83,7 @@ GlobalConfig builder = new GlobalConfig.Builder()
 
 | 属性          | 说明           | 默认值                |
 |-------------|--------------|--------------------|
-| parent      | 父包名          | 默认:`com.hb0730`    |
+| parent      | 父包名          | 默认:`com.kyle`    |
 | moduleName  | 模块名          |                    |
 | entity      | 实体类包名        | 默认:`domain.entity` |
 | dto         | dto包名        | 默认:`domain.dto`    |
@@ -97,10 +97,10 @@ GlobalConfig builder = new GlobalConfig.Builder()
 #### 示例
 
 ```java
-import com.hb0730.code.generator.core.config.PackageConfig;
+import com.kyle.code.generator.core.config.PackageConfig;
 
 PackageConfig packageConfig = new PackageConfig.Builder()
-        .parent("com.hb0730") // 父包名
+        .parent("com.kyle") // 父包名
         .moduleName("test") // 模块名
         .entity("domain.entity") // 实体类包名
         .dto("domain.dto") // dto包名
@@ -136,7 +136,7 @@ PackageConfig packageConfig = new PackageConfig.Builder()
 #### 示例
 
 ```java
-import com.hb0730.code.generator.core.config.StrategyConfig;
+import com.kyle.code.generator.core.config.StrategyConfig;
 
 StrategyConfig strategyConfig = new StrategyConfig.Builder()
         .addTablePrefix("t_")// 去除表前缀

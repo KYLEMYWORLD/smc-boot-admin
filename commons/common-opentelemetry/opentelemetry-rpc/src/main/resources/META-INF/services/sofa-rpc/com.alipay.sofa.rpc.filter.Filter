@@ -1,2 +1,2 @@
-clientTracerFilter=com.hb0730.otel.sofa.rpc.tracer.ClientTracerFilter
-serverTracerFilter=com.hb0730.otel.sofa.rpc.tracer.ServerTracerFilter
+clientTracerFilter=com.kyle.otel.sofa.rpc.tracer.ClientTracerFilter
+serverTracerFilter=com.kyle.otel.sofa.rpc.tracer.ServerTracerFilter

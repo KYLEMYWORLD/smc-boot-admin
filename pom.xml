@@ -4,8 +4,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.hb0730</groupId>
-    <artifactId>boot-admin</artifactId>
+    <groupId>com.kyle</groupId>
+    <artifactId>smc-admin</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
     <modules>

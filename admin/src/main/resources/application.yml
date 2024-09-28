@@ -6,7 +6,7 @@ server:
 logging:
   level:
     root: info
-    com.hb0730: debug
+    com.kyle: debug
 
 spring:
   application:
@@ -16,9 +16,9 @@ spring:
     allow-bean-definition-overriding: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/boot-admin?useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/smc?useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
-    password: 123456
+    password: root
     type: com.zaxxer.hikari.HikariDataSource
   jpa:
     hibernate:
